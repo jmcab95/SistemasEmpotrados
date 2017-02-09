@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2015.4 (64-bit)
+# SW Build 1412921 on Wed Nov 18 09:43:45 MST 2015
+# 
+# Start of session at: Wed Sep 28 12:57:32 2016
+# Process ID: 10428
+# Current directory: P:/Workspace_Xillinx/Practica1/project_1/project_1.sdk/webtalk
+# Command line: wbtcv.exe -mode batch -source sdk_webtalk.tcl
+# Log file: P:/Workspace_Xillinx/Practica1/project_1/project_1.sdk/webtalk/webtalk.log
+# Journal file: P:/Workspace_Xillinx/Practica1/project_1/project_1.sdk/webtalk\webtalk.jou
+#-----------------------------------------------------------
+source sdk_webtalk.tcl

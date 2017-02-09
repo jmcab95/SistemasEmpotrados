@@ -1,0 +1,54 @@
+12:39:29 INFO  : Launching XSDB server: xsdb.bat P:/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+12:39:34 INFO  : XSDB server has started successfully.
+12:39:36 INFO  : Processing command line option -hwspec P:/Workspace_Xillinx/Practica1/project_1/project_1.sdk/design_1_wrapper.hdf.
+12:56:13 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:56:24 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:56:55 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:57:22 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:46:29 INFO  : Launching XSDB server: xsdb.bat E:/Vivado/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+11:46:31 INFO  : XSDB server has started successfully.
+11:46:39 INFO  : Processing command line option -hwspec E:/Workspaces/Workspace_Vivado/Practica1/project_1/project_1.sdk/design_1_wrapper.hdf.
+11:50:11 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:50:12 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248723195" && level==0} -index 1' command is executed.
+11:50:15 INFO  : FPGA configured successfully with bitstream "E:/Workspaces/Workspace_Vivado/Practica1/project_1/project_1.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+11:51:08 INFO  : ps7_init is completed.
+11:51:08 INFO  : ps7_post_config is completed.
+11:51:08 INFO  : Processor reset is completed for ps7_cortexa9_0
+11:51:49 INFO  : Processor reset is completed for ps7_cortexa9_0
+11:52:32 INFO  : Processor reset is completed for ps7_cortexa9_0
+11:53:35 INFO  : Processor reset is completed for ps7_cortexa9_0
+11:53:57 INFO  : Processor reset is completed for ps7_cortexa9_0
+11:56:17 INFO  : Processor reset is completed for ps7_cortexa9_0
+11:57:03 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:57:03 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248723195" && level==0} -index 1' command is executed.
+11:57:06 INFO  : FPGA configured successfully with bitstream "E:/Workspaces/Workspace_Vivado/Practica1/project_1/project_1.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+11:57:14 INFO  : Processor reset is completed for ps7_cortexa9_0
+11:58:31 INFO  : Processor reset is completed for ps7_cortexa9_0
+11:59:03 INFO  : Processor reset is completed for ps7_cortexa9_0
+12:07:37 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+12:08:03 INFO  : Launching XSDB server: xsdb.bat E:/Vivado/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+12:08:04 INFO  : XSDB server has started successfully.
+12:08:05 INFO  : Processing command line option -hwspec E:/Workspaces/Workspace_Vivado/Practica1/project_1/project_1.sdk/design_1_wrapper.hdf.
+12:08:05 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_1.
+12:14:07 INFO  : Launching XSDB server: xsdb.bat C:/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+12:14:09 INFO  : XSDB server has started successfully.
+12:14:12 INFO  : Processing command line option -hwspec D:/ProyectosXILINX/Practica1/project_1/project_1.sdk/design_1_wrapper.hdf.
+12:14:57 INFO  : ps7_init is completed.
+12:14:58 INFO  : ps7_post_config is completed.
+12:14:58 INFO  : Processor reset is completed for ps7_cortexa9_0
+12:15:10 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:15:12 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248723195" && level==0} -index 1' command is executed.
+12:15:15 INFO  : FPGA configured successfully with bitstream "D:/ProyectosXILINX/Practica1/project_1/project_1.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+12:15:34 INFO  : Processor reset is completed for ps7_cortexa9_0
+12:31:46 INFO  : Processor reset is completed for ps7_cortexa9_0
+12:31:46 ERROR : Port COM4 is already in use.
+12:32:08 INFO  : Processor reset is completed for ps7_cortexa9_0
+12:49:21 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+11:47:42 INFO  : Launching XSDB server: xsdb.bat C:/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+11:47:44 INFO  : XSDB server has started successfully.
+11:47:48 INFO  : Processing command line option -hwspec D:/ProyectosXILINX/Practica1/project_1/project_1.sdk/design_1_wrapper.hdf.
+11:47:48 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_2.
+12:03:23 INFO  : Launching XSDB server: xsdb.bat C:/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+12:03:24 INFO  : XSDB server has started successfully.
+12:03:25 INFO  : Processing command line option -hwspec D:/ProyectosXILINX/Practica1/project_1/project_1.sdk/design_1_wrapper.hdf.
+12:03:26 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_2.
