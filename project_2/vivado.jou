@@ -1,0 +1,21 @@
+#-----------------------------------------------------------
+# Vivado v2015.4 (64-bit)
+# SW Build 1412921 on Wed Nov 18 09:43:45 MST 2015
+# IP Build 1412160 on Tue Nov 17 13:47:24 MST 2015
+# Start of session at: Thu Nov 24 16:44:04 2016
+# Process ID: 5720
+# Current directory: E:/Workspaces/Workspace_Vivado/Practica2/project_2
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent4932 E:\Workspaces\Workspace_Vivado\Practica2\project_2\project_2.xpr
+# Log file: E:/Workspaces/Workspace_Vivado/Practica2/project_2/vivado.log
+# Journal file: E:/Workspaces/Workspace_Vivado/Practica2/project_2\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project E:/Workspaces/Workspace_Vivado/Practica2/project_2/project_2.xpr
+launch_sdk -workspace E:/Workspaces/Workspace_Vivado/Practica2/project_2/project_2.sdk -hwspec E:/Workspaces/Workspace_Vivado/Practica2/project_2/project_2.sdk/design_1_wrapper.hdf
+reset_run impl_1 -prev_step 
+launch_runs impl_1 -to_step write_bitstream
+wait_on_run impl_1
+open_run impl_1
+file copy -force E:/Workspaces/Workspace_Vivado/Practica2/project_2/project_2.runs/impl_1/design_1_wrapper.sysdef E:/Workspaces/Workspace_Vivado/Practica2/project_2/project_2.sdk/design_1_wrapper.hdf
+
+launch_sdk -workspace E:/Workspaces/Workspace_Vivado/Practica2/project_2/project_2.sdk -hwspec E:/Workspaces/Workspace_Vivado/Practica2/project_2/project_2.sdk/design_1_wrapper.hdf

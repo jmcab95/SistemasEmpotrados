@@ -1,0 +1,252 @@
+01:04:46 INFO  : Launching XSDB server: xsdb.bat C:/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+01:04:48 INFO  : XSDB server has started successfully.
+01:04:48 INFO  : Processing command line option -hwspec D:/ProyectosXILINX/Practica_3/project_3B/project_3.sdk/design_1_wrapper.hdf.
+12:23:00 INFO  : Launching XSDB server: xsdb.bat C:/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+12:23:02 INFO  : XSDB server has started successfully.
+12:23:03 INFO  : Processing command line option -hwspec D:/ProyectosXILINX/Practica_3/project_3B/project_3.sdk/design_1_wrapper.hdf.
+12:23:03 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+12:23:19 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:24:04 ERROR : Checking FPGA configuration failed..Connection to Board Failed
+
+
+    Unknown Error Occured
+    Cable is not powered-on
+
+12:24:04 ERROR : Unexpected error while launching program.
+com.xilinx.sdk.targetmanager.TMException: Connection to Board Failed
+
+
+    Unknown Error Occured
+    Cable is not powered-on
+
+	at com.xilinx.sdk.targetmanager.internal.TM.isFPGAConfigured(TM.java:374)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.isFpgaConfigured(XilinxAppLaunchConfigurationDelegate.java:409)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:303)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:858)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:707)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1018)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1222)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+12:24:29 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:25:08 ERROR : Checking FPGA configuration failed..Connection to Board Failed
+
+
+    Unknown Error Occured
+    Cable is not powered-on
+
+12:25:08 ERROR : Unexpected error while launching program.
+com.xilinx.sdk.targetmanager.TMException: Connection to Board Failed
+
+
+    Unknown Error Occured
+    Cable is not powered-on
+
+	at com.xilinx.sdk.targetmanager.internal.TM.isFPGAConfigured(TM.java:374)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.isFpgaConfigured(XilinxAppLaunchConfigurationDelegate.java:409)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:303)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:858)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:707)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1018)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1222)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+12:26:00 ERROR : Checking FPGA configuration failed..Connection to Board Failed
+
+
+    Unknown Error Occured
+    Cable is not powered-on
+
+12:26:00 ERROR : Unexpected error while launching program.
+com.xilinx.sdk.targetmanager.TMException: Connection to Board Failed
+
+
+    Unknown Error Occured
+    Cable is not powered-on
+
+	at com.xilinx.sdk.targetmanager.internal.TM.isFPGAConfigured(TM.java:374)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.isFpgaConfigured(XilinxAppLaunchConfigurationDelegate.java:409)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:303)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:858)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:707)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1018)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1222)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+12:26:09 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:26:47 ERROR : Checking FPGA configuration failed..Connection to Board Failed
+
+
+    Unknown Error Occured
+    Cable is not powered-on
+
+12:26:47 ERROR : Unexpected error while launching program.
+com.xilinx.sdk.targetmanager.TMException: Connection to Board Failed
+
+
+    Unknown Error Occured
+    Cable is not powered-on
+
+	at com.xilinx.sdk.targetmanager.internal.TM.isFPGAConfigured(TM.java:374)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.isFpgaConfigured(XilinxAppLaunchConfigurationDelegate.java:409)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:303)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:858)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:707)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1018)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1222)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+12:26:53 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:32:28 INFO  : ps7_init is completed.
+12:32:28 INFO  : ps7_post_config is completed.
+12:32:28 INFO  : Processor reset is completed for ps7_cortexa9_0
+12:33:19 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:33:19 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248723195" && level==0} -index 1' command is executed.
+12:33:22 INFO  : FPGA configured successfully with bitstream "D:/ProyectosXILINX/Practica_3/project_3B/project_3.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+12:33:35 INFO  : Processor reset is completed for ps7_cortexa9_0
+12:33:35 ERROR : Unexpected error while launching program.
+java.lang.RuntimeException: Unknown Error Occured
+    Target '64' Does NOT exist in the Current System
+
+
+	at com.xilinx.sdk.targetmanager.internal.TM.downloadELF(TM.java:686)
+	at com.xilinx.sdk.debug.core.internal.AppRunner.run(AppRunner.java:129)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:637)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:309)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:858)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:707)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1018)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1222)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+12:35:26 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+12:35:42 INFO  : Launching XSDB server: xsdb.bat C:/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+12:35:44 INFO  : XSDB server has started successfully.
+12:35:44 INFO  : Processing command line option -hwspec D:/ProyectosXILINX/Practica_3/project_3B/project_3.sdk/design_1_wrapper.hdf.
+12:35:45 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+12:36:10 ERROR : Unexpected error while launching program.
+java.lang.RuntimeException: Error in Resetting Target
+
+    Could not stop the processor after reset
+
+
+	at com.xilinx.sdk.targetmanager.internal.TM.doProcessorReset(TM.java:1011)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runTargetSetup(XilinxAppLaunchConfigurationDelegate.java:534)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:616)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:309)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:858)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:707)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1018)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1222)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+12:36:27 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+12:36:54 INFO  : Launching XSDB server: xsdb.bat C:/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+12:36:56 INFO  : XSDB server has started successfully.
+12:36:57 INFO  : Processing command line option -hwspec D:/ProyectosXILINX/Practica_3/project_3B/project_3.sdk/design_1_wrapper.hdf.
+12:36:57 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+12:37:39 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:37:41 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248723195" && level==0} -index 1' command is executed.
+12:37:44 INFO  : FPGA configured successfully with bitstream "D:/ProyectosXILINX/Practica_3/project_3B/project_3.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+12:38:06 INFO  : ps7_init is completed.
+12:38:06 INFO  : ps7_post_config is completed.
+12:38:07 INFO  : Processor reset is completed for ps7_cortexa9_0
+12:39:02 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+12:50:43 INFO  : Launching XSDB server: xsdb.bat C:/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+12:50:46 INFO  : XSDB server has started successfully.
+12:50:46 INFO  : Processing command line option -hwspec D:/ProyectosXILINX/Practica_3/project_3B/project_3.sdk/design_1_wrapper.hdf.
+12:50:46 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+12:51:19 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:51:23 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248723195" && level==0} -index 1' command is executed.
+12:51:25 INFO  : FPGA configured successfully with bitstream "D:/ProyectosXILINX/Practica_3/project_3B/project_3.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+12:51:32 INFO  : Inferring section assignments and sizes from elf file: D:\ProyectosXILINX\Practica_3\project_3B\project_3.sdk\Practica3b.c\Debug\Practica3b.c.elf
+12:51:55 INFO  : Processor reset is completed for ps7_cortexa9_0
+12:51:58 ERROR : Unexpected error while launching program.
+java.lang.RuntimeException: Failed to download ELF file
+
+
+    AP transaction timeout: ACK = 0x01, expected=0x02)
+    Error Address = 0x00110000, Size = 0x00000004
+
+
+	at com.xilinx.sdk.targetmanager.internal.TM.downloadELF(TM.java:686)
+	at com.xilinx.sdk.debug.core.internal.AppRunner.run(AppRunner.java:129)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:637)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:309)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:858)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:707)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1018)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1222)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+12:54:27 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:54:28 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248723195" && level==0} -index 1' command is executed.
+12:54:28 ERROR : Error occured during Prog B register check
+12:54:35 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:54:36 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248723195" && level==0} -index 1' command is executed.
+12:54:36 ERROR : Error occured during Prog B register check
+12:54:55 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:54:55 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248723195" && level==0} -index 1' command is executed.
+12:54:58 INFO  : FPGA configured successfully with bitstream "D:/ProyectosXILINX/Practica_3/project_3B/project_3.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+12:55:15 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+12:55:34 INFO  : Launching XSDB server: xsdb.bat C:/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+12:55:36 INFO  : XSDB server has started successfully.
+12:55:36 INFO  : Processing command line option -hwspec D:/ProyectosXILINX/Practica_3/project_3B/project_3.sdk/design_1_wrapper.hdf.
+12:55:36 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+12:55:44 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:55:47 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248723195" && level==0} -index 1' command is executed.
+12:55:50 INFO  : FPGA configured successfully with bitstream "D:/ProyectosXILINX/Practica_3/project_3B/project_3.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+12:57:04 INFO  : ps7_init is completed.
+12:57:04 INFO  : ps7_post_config is completed.
+12:57:04 INFO  : Processor reset is completed for ps7_cortexa9_0
+13:06:07 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+13:06:08 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248723195" && level==0} -index 1' command is executed.
+13:06:10 INFO  : FPGA configured successfully with bitstream "D:/ProyectosXILINX/Practica_3/project_3B/project_3.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+13:06:20 INFO  : Processor reset is completed for ps7_cortexa9_0
+13:18:01 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1480421788735,  Project:1480376550484
+13:18:01 INFO  : Project design_1_wrapper_hw_platform_0's source hardware specification located at D:/ProyectosXILINX/Practica_3/project_3B/project_3.sdk/design_1_wrapper.hdf is now different from the local copy.
+		 The local copy will be replaced with the source specification and your workspace will be updated.
+13:18:10 INFO  : Project design_1_wrapper_hw_platform_0's source hardware specification location will not be monitored anymore.
+13:18:17 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+13:18:43 INFO  : Launching XSDB server: xsdb.bat C:/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+13:18:45 INFO  : XSDB server has started successfully.
+13:18:46 INFO  : Processing command line option -hwspec D:/ProyectosXILINX/Practica_3/project_3B/project_3.sdk/design_1_wrapper.hdf.
+13:19:22 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+13:19:26 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248723195" && level==0} -index 1' command is executed.
+13:19:29 INFO  : FPGA configured successfully with bitstream "D:/ProyectosXILINX/Practica_3/project_3B/project_3.sdk/design_1_wrapper_hw_platform_1/design_1_wrapper.bit"
+13:20:23 WARN  : Hardware Project 'design_1_wrapper_hw_platform_0' referenced by launch configuration 'Practica3b.c.elf' doesn't exist in the workspace.
+13:21:14 WARN  : Hardware Project 'design_1_wrapper_hw_platform_0' referenced by launch configuration 'Practica3b.c.elf' doesn't exist in the workspace.
+13:21:27 WARN  : Hardware Project 'design_1_wrapper_hw_platform_0' referenced by launch configuration 'Practica3b.c.elf' doesn't exist in the workspace.
+13:21:37 WARN  : Hardware Project 'design_1_wrapper_hw_platform_0' referenced by launch configuration 'Practica3b.c.elf' doesn't exist in the workspace.
+13:22:06 WARN  : Hardware Project 'design_1_wrapper_hw_platform_0' referenced by launch configuration 'Practica3b.c.elf' doesn't exist in the workspace.
+13:22:50 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+13:25:18 INFO  : Launching XSDB server: xsdb.bat C:/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+13:25:20 INFO  : XSDB server has started successfully.
+13:25:20 INFO  : Processing command line option -hwspec D:/ProyectosXILINX/Practica_3/project_3B/project_3.sdk/design_1_wrapper.hdf.
+13:28:48 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+13:28:51 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248723195" && level==0} -index 1' command is executed.
+13:28:54 INFO  : FPGA configured successfully with bitstream "D:/ProyectosXILINX/Practica_3/project_3B/project_3.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+13:29:39 INFO  : Processor reset is completed for ps7_cortexa9_0
+13:30:27 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+13:30:32 INFO  : Processor reset is completed for ps7_cortexa9_0
+13:32:02 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+13:32:05 INFO  : Processor reset is completed for ps7_cortexa9_0
+13:33:27 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+20:31:31 INFO  : Launching XSDB server: xsdb.bat C:/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+20:31:34 INFO  : XSDB server has started successfully.
+20:31:34 INFO  : Processing command line option -hwspec D:/ProyectosXILINX/Practica_3/project_3B/project_3.sdk/design_1_wrapper.hdf.
+20:31:34 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+20:39:00 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+20:39:01 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248723195" && level==0} -index 1' command is executed.
+20:39:03 INFO  : FPGA configured successfully with bitstream "D:/ProyectosXILINX/Practica_3/project_3B/project_3.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+20:39:20 INFO  : ps7_init is completed.
+20:39:20 INFO  : ps7_post_config is completed.
+20:39:20 INFO  : Processor reset is completed for ps7_cortexa9_0
+20:40:58 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+11:53:15 INFO  : Launching XSDB server: xsdb.bat C:/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+11:53:17 INFO  : XSDB server has started successfully.
+11:53:18 INFO  : Processing command line option -hwspec D:/ProyectosXILINX/Practica_3/project_3B/project_3.sdk/design_1_wrapper.hdf.
+11:53:18 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+12:04:13 INFO  : Invoking Bootgen: bootgen -image output.bif -o D:\ProyectosXILINX\flash_images\BOOT.bin
+12:04:13 INFO  : Creating new bif file D:\ProyectosXILINX\flash_images\output.bif
+12:04:14 INFO  : Bootgen command execution is done.

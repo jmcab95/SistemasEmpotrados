@@ -1,0 +1,93 @@
+/******************************************************************************
+*
+* Copyright (C) 2009 - 2014 Xilinx, Inc.  All rights reserved.
+*
+* Permission is hereby granted, free of charge, to any person obtaining a copy
+* of this software and associated documentation files (the "Software"), to deal
+* in the Software without restriction, including without limitation the rights
+* to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+* copies of the Software, and to permit persons to whom the Software is
+* furnished to do so, subject to the following conditions:
+*
+* The above copyright notice and this permission notice shall be included in
+* all copies or substantial portions of the Software.
+*
+* Use of the Software is limited solely to applications:
+* (a) running on a Xilinx device, or
+* (b) that interact with a Xilinx device through a bus or interconnect.
+*
+* THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+* IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+* FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL
+* XILINX  BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,
+* WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF
+* OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+* SOFTWARE.
+*
+* Except as contained in this notice, the name of the Xilinx shall not be used
+* in advertising or otherwise to promote the sale, use or other dealings in
+* this Software without prior written authorization from Xilinx.
+*
+******************************************************************************/
+
+/*
+ * helloworld.c: simple test application
+ *
+ * This application configures UART 16550 to baud rate 9600.
+ * PS7 UART (Zynq) is not initialized by this application, since
+ * bootrom/bsp configures it to baud rate 115200
+ *
+ * ------------------------------------------------
+ * | UART TYPE   BAUD RATE                        |
+ * ------------------------------------------------
+ *   uartns550   9600
+ *   uartlite    Configurable only in HW design
+ *   ps7_uart    115200 (configured by bootrom/bsp)
+ */
+
+#include "platform.h"
+#include "xgpio.h"
+#include "xparameters.h"
+
+
+
+int main()
+{
+	u32 LED_Value=0;
+	u32 DIP_Value=0;
+	XGpio mi_gpio;
+	XGpio_Config *mi_GPIO_Config;
+	mi_GPIO_Config = XGpio_LookupConfig(XPAR_AXI_GPIO_0_DEVICE_ID);
+	int Status = XGpio_CfgInitialize(&mi_gpio,mi_GPIO_Config, mi_GPIO_Config->BaseAddress);
+	XGpio_SetDataDirection(&mi_gpio, 1 , 0x00000000);//Configuramos el canal como salida
+
+	XGpio mi_gpio_2;
+	XGpio_Config *mi_GPIO_Config_2;
+	mi_GPIO_Config_2 = XGpio_LookupConfig(XPAR_AXI_GPIO_1_DEVICE_ID);
+	int Status2 = XGpio_CfgInitialize(&mi_gpio_2,mi_GPIO_Config_2, mi_GPIO_Config_2->BaseAddress);
+	XGpio_SetDataDirection(&mi_gpio_2, 1 , 0xFF);//Configuramos el canal como entradas a 1
+
+	init_platform();
+
+
+		    while (1)
+		    {
+
+		    // Leer del GPIO para determiner la posicion de los switches
+		    DIP_Value=XGpio_DiscreteRead(&mi_gpio_2, 1);
+		    LED_Value=XGpio_DiscreteRead(&mi_gpio, 1);
+		    // Asignar un valor a la variable LED_Value, ajustando si es necesario
+		    //DIP_Value= DIP_Value & 0x000000;
+		    LED_Value=DIP_Value<<1; //Multiplicamos por 2 haciendo el desplazamineto de un bit a la izquierda
+
+		    // Imprimir los valores de las variables en la uart
+		    printf("DIP = 0x%04X, LED = 0x%04X\n\r", DIP_Value, LED_Value);
+
+		    // Escribir el valor de nuevo en el GPIO para verlo en los leds
+		    XGpio_DiscreteWrite(&mi_gpio, 1, LED_Value);
+
+		    } //Fin del while
+
+		    cleanup_platform();
+		    return 0;
+		}

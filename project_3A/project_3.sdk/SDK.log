@@ -1,0 +1,142 @@
+00:55:11 INFO  : Launching XSDB server: xsdb.bat C:/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+00:55:13 INFO  : XSDB server has started successfully.
+00:55:13 INFO  : Processing command line option -hwspec D:/ProyectosXILINX/Practica_3/project_3A/project_3.sdk/design_1_wrapper.hdf.
+09:29:25 INFO  : Launching XSDB server: xsdb.bat C:/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+09:29:27 INFO  : XSDB server has started successfully.
+09:29:28 INFO  : Processing command line option -hwspec D:/ProyectosXILINX/Practica_3/project_3A/project_3.sdk/design_1_wrapper.hdf.
+09:29:28 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+11:43:18 INFO  : Launching XSDB server: xsdb.bat C:/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+11:43:21 INFO  : XSDB server has started successfully.
+11:43:21 INFO  : Processing command line option -hwspec D:/ProyectosXILINX/Practica_3/project_3A/project_3.sdk/design_1_wrapper.hdf.
+11:43:22 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+12:08:50 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:08:50 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248723195" && level==0} -index 1' command is executed.
+12:08:53 INFO  : FPGA configured successfully with bitstream "D:/ProyectosXILINX/Practica_3/project_3A/project_3.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+12:09:31 INFO  : ps7_init is completed.
+12:09:31 INFO  : ps7_post_config is completed.
+12:09:31 INFO  : Processor reset is completed for ps7_cortexa9_0
+12:10:19 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+12:10:23 INFO  : Processor reset is completed for ps7_cortexa9_0
+12:11:01 INFO  : Processor reset is completed for ps7_cortexa9_0
+12:12:07 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:12:42 ERROR : Checking FPGA configuration failed..Connection to Board Failed
+
+
+    Unknown Error Occured
+    Cable is not powered-on
+
+12:12:42 ERROR : Unexpected error while launching program.
+com.xilinx.sdk.targetmanager.TMException: Connection to Board Failed
+
+
+    Unknown Error Occured
+    Cable is not powered-on
+
+	at com.xilinx.sdk.targetmanager.internal.TM.isFPGAConfigured(TM.java:374)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.isFpgaConfigured(XilinxAppLaunchConfigurationDelegate.java:409)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:303)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:858)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:707)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1018)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1222)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+12:14:39 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:15:13 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:16:30 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:16:30 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248723195" && level==0} -index 1' command is executed.
+12:16:33 INFO  : FPGA configured successfully with bitstream "D:/ProyectosXILINX/Practica_3/project_3A/project_3.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+12:16:50 INFO  : ps7_init is completed.
+12:16:50 INFO  : ps7_post_config is completed.
+12:16:51 INFO  : Processor reset is completed for ps7_cortexa9_0
+12:21:10 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+12:21:33 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:21:48 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+12:46:58 INFO  : Launching XSDB server: xsdb.bat C:/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+12:47:01 INFO  : XSDB server has started successfully.
+12:47:01 INFO  : Processing command line option -hwspec D:/ProyectosXILINX/Practica_3/project_3A/project_3.sdk/design_1_wrapper.hdf.
+12:47:01 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+12:47:39 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:47:43 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248723195" && level==0} -index 1' command is executed.
+12:47:45 INFO  : FPGA configured successfully with bitstream "D:/ProyectosXILINX/Practica_3/project_3A/project_3.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+12:48:08 INFO  : ps7_init is completed.
+12:48:08 INFO  : ps7_post_config is completed.
+12:48:08 INFO  : Processor reset is completed for ps7_cortexa9_0
+12:49:01 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+13:39:34 INFO  : Launching XSDB server: xsdb.bat C:/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+13:39:36 INFO  : XSDB server has started successfully.
+13:39:37 INFO  : Processing command line option -hwspec D:/ProyectosXILINX/Practica_3/project_3A/project_3.sdk/design_1_wrapper.hdf.
+13:39:37 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+13:51:37 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+13:51:40 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248723195" && level==0} -index 1' command is executed.
+13:51:43 INFO  : FPGA configured successfully with bitstream "D:/ProyectosXILINX/Practica_3/project_3A/project_3.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+13:52:03 INFO  : Processor reset is completed for ps7_cortexa9_0
+14:19:44 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+19:39:39 INFO  : Launching XSDB server: xsdb.bat C:/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+19:39:41 INFO  : XSDB server has started successfully.
+19:39:41 INFO  : Processing command line option -hwspec D:/ProyectosXILINX/Practica_3/project_3A/project_3.sdk/design_1_wrapper.hdf.
+19:39:42 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+19:39:50 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+19:39:51 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248723195" && level==0} -index 1' command is executed.
+19:39:53 INFO  : FPGA configured successfully with bitstream "D:/ProyectosXILINX/Practica_3/project_3A/project_3.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+19:50:26 INFO  : ps7_init is completed.
+19:50:26 INFO  : ps7_post_config is completed.
+19:50:26 INFO  : Processor reset is completed for ps7_cortexa9_0
+20:01:16 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+20:01:17 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248723195" && level==0} -index 1' command is executed.
+20:01:20 INFO  : FPGA configured successfully with bitstream "D:/ProyectosXILINX/Practica_3/project_3A/project_3.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+20:01:26 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+20:02:02 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+20:02:09 INFO  : Processor reset is completed for ps7_cortexa9_0
+20:02:17 ERROR : Unexpected error while launching program.
+java.lang.RuntimeException: Failed to download ELF file
+
+
+    Could not stop the processor after reset
+
+
+	at com.xilinx.sdk.targetmanager.internal.TM.downloadELF(TM.java:686)
+	at com.xilinx.sdk.debug.core.internal.AppRunner.run(AppRunner.java:129)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:637)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:309)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:858)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:707)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1018)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1222)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+20:02:27 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+20:02:50 INFO  : Launching XSDB server: xsdb.bat C:/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+20:02:52 INFO  : XSDB server has started successfully.
+20:02:52 INFO  : Processing command line option -hwspec D:/ProyectosXILINX/Practica_3/project_3A/project_3.sdk/design_1_wrapper.hdf.
+20:02:53 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+20:03:02 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+20:03:03 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248723195" && level==0} -index 1' command is executed.
+20:03:05 INFO  : FPGA configured successfully with bitstream "D:/ProyectosXILINX/Practica_3/project_3A/project_3.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+20:03:18 INFO  : ps7_init is completed.
+20:03:18 INFO  : ps7_post_config is completed.
+20:03:18 INFO  : Processor reset is completed for ps7_cortexa9_0
+20:10:16 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+20:10:19 INFO  : Processor reset is completed for ps7_cortexa9_0
+20:11:09 INFO  : Processor reset is completed for ps7_cortexa9_0
+20:12:56 INFO  : Processor reset is completed for ps7_cortexa9_0
+20:14:08 INFO  : Processor reset is completed for ps7_cortexa9_0
+20:15:43 INFO  : Processor reset is completed for ps7_cortexa9_0
+20:16:20 INFO  : Processor reset is completed for ps7_cortexa9_0
+20:16:41 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+20:16:41 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248723195" && level==0} -index 1' command is executed.
+20:16:44 INFO  : FPGA configured successfully with bitstream "D:/ProyectosXILINX/Practica_3/project_3A/project_3.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+20:16:53 INFO  : Processor reset is completed for ps7_cortexa9_0
+20:17:39 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+20:17:40 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248723195" && level==0} -index 1' command is executed.
+20:17:42 INFO  : FPGA configured successfully with bitstream "D:/ProyectosXILINX/Practica_3/project_3A/project_3.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+20:17:51 INFO  : Processor reset is completed for ps7_cortexa9_0
+20:21:23 INFO  : Processor reset is completed for ps7_cortexa9_0
+20:22:08 INFO  : Processor reset is completed for ps7_cortexa9_0
+20:22:49 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+20:22:50 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248723195" && level==0} -index 1' command is executed.
+20:22:52 INFO  : FPGA configured successfully with bitstream "D:/ProyectosXILINX/Practica_3/project_3A/project_3.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+20:22:58 INFO  : Processor reset is completed for ps7_cortexa9_0
+20:23:34 INFO  : Processor reset is completed for ps7_cortexa9_0
+20:26:08 INFO  : Processor reset is completed for ps7_cortexa9_0
+20:28:44 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
